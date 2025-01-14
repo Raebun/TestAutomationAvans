@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CrossBrowserTest" time="69.191" tests="15" failures="0" errors="0">
+   <testsuite name="WebShopSuite" tests="5" failures="0" errors="0" time="19.414" skipped="0" timestamp="14-01-2025T15:14:07" hostname="Rachel - RachelGamingPC" id="Test Suites/WebShopSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151359"/>
+         <property name="logFiles" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151359\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rachel - RachelGamingPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="02f4b092a4da07bc5eb39c2f08fd2998"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="4.737" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:07 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+14-01-2025T15:14:07 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:07 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:07 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T15:14:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T15:14:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T15:14:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T15:14:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:09 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Email_Email"), "r.sarikaya@student.avans.nl"): Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:11 - [MESSAGE][PASSED] - Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Password_Password"), "rdcf2pvC1eAK0Pf1WCwicA=="): Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:12 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:12 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.838" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:12 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:14:12 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:12 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:12 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:12 - [MESSAGE][PASSED] - Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:13 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:14:13 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:14:13 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:14:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:14:15 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:14:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '6' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:14:15 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:14:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:14:16 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:16 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.38" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:16 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:14:16 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:16 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:16 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:16 - [MESSAGE][PASSED] - Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:17 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:14:17 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:14:17 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:14:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:14:18 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '2' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:14:19 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:14:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:14:19 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order" time="5.413" classname="Test Cases/Order" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:19 - [TEST_CASE][PASSED] - Test Cases/Order: Test Cases/Order
+
+14-01-2025T15:14:19 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:19 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:19 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:14:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:14:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:14:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:14:24 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:24 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="1.779" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:24 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+14-01-2025T15:14:24 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:24 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:24 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log out")): Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:14:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-01-2025T15:14:26 - [MESSAGE][PASSED] - Browser is closed
+
+14-01-2025T15:14:26 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Chrome
+
+14-01-2025T15:14:26 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Chrome]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T15:14:07 - [TEST_SUITE][PASSED] - WebShopSuite: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="WebShopSuite" tests="5" failures="0" errors="0" time="20.706" skipped="0" timestamp="14-01-2025T15:14:29" hostname="Rachel - RachelGamingPC" id="Test Suites/WebShopSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151401"/>
+         <property name="logFiles" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rachel - RachelGamingPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Firefox 134.0"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="043c6067-ecc0-49d9-a205-aa7a8da57dc4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="5.499" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:29 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+14-01-2025T15:14:29 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:29 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:29 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T15:14:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+14-01-2025T15:14:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T15:14:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T15:14:31 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:32 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Email_Email"), "r.sarikaya@student.avans.nl"): Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:33 - [MESSAGE][PASSED] - Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Password_Password"), "rdcf2pvC1eAK0Pf1WCwicA=="): Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:34 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:34 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.826" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:34 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:14:34 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:34 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:34 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:35 - [MESSAGE][PASSED] - Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:36 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:14:36 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:14:36 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:14:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:14:37 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '5' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:14:38 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:14:38 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:38 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.737" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:38 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:14:38 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:38 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:38 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:39 - [MESSAGE][PASSED] - Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:40 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:14:40 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:14:40 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:14:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:14:41 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:14:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '5' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:14:42 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:14:42 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:42 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order" time="5.546" classname="Test Cases/Order" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:42 - [TEST_CASE][PASSED] - Test Cases/Order: Test Cases/Order
+
+14-01-2025T15:14:42 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:42 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:42 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:14:48 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:48 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="1.858" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:48 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+14-01-2025T15:14:48 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:48 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:48 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log out")): Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:14:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-01-2025T15:14:49 - [MESSAGE][PASSED] - Browser is closed
+
+14-01-2025T15:14:49 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Firefox
+
+14-01-2025T15:14:49 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Firefox]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T15:14:29 - [TEST_SUITE][PASSED] - WebShopSuite: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="WebShopSuite" tests="5" failures="0" errors="0" time="21.376" skipped="0" timestamp="14-01-2025T15:14:52" hostname="Rachel - RachelGamingPC" id="Test Suites/WebShopSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151403"/>
+         <property name="logFiles" value="C:\\Users\\Rachel\\git\\TestAutomationAvans\\Reports\\20250114_151358\\WebShopSuite\\20250114_151403\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rachel - RachelGamingPC"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Edge Chromium 131"/>
+         <property name="hostAddress" value="192.168.1.75"/>
+         <property name="sessionId" value="5aac77e0b23e690917eb40e2d6f585a7"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="4.929" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:52 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+14-01-2025T15:14:52 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:52 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:14:52 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T15:14:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+14-01-2025T15:14:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T15:14:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T15:14:54 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:55 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+14-01-2025T15:14:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log in")): Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log in' is clicked on
+
+14-01-2025T15:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Email_Email"), "r.sarikaya@student.avans.nl"): Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:56 - [MESSAGE][PASSED] - Text 'r.sarikaya@student.avans.nl' is set on object 'Object Repository/Page_Demo Web Shop. Login/input_Email_Email'
+
+14-01-2025T15:14:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Password_Password"), "rdcf2pvC1eAK0Pf1WCwicA=="): Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Demo Web Shop. Login/input_Password_Password'
+
+14-01-2025T15:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button")): Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button' is clicked on
+
+14-01-2025T15:14:57 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:14:57 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.8" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:14:57 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:14:57 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:57 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:14:57 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:58 - [MESSAGE][PASSED] - Text 'SmartPhone' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:14:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:14:59 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:14:59 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:14:59 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:15:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:15:00 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:15:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '2' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:15:01 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_addtocart_43.EnteredQuantity'
+
+14-01-2025T15:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. SmartPhone/input_Qty_add-to-cart-button-43' is clicked on
+
+14-01-2025T15:15:01 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:01 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AddItems" time="3.964" classname="Test Cases/AddItems" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:15:01 - [TEST_CASE][PASSED] - Test Cases/AddItems: Test Cases/AddItems
+
+14-01-2025T15:15:01 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:01 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:01 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_q"), product): Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:15:02 - [MESSAGE][PASSED] - Text 'Blue Jeans' is set on object 'Object Repository/Page_Demo Web Shop/input_Sub-Total_q'
+
+14-01-2025T15:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button")): Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button' is clicked on
+
+14-01-2025T15:15:03 - [TEST_STEP][PASSED] - xpath = "//div[@class='product-item' and @data-productid='" + id + "']//a": null
+
+14-01-2025T15:15:03 - [TEST_STEP][PASSED] - productLink = TestObject().addProperty("xpath", EQUALS, xpath): null
+
+14-01-2025T15:15:03 - [TEST_STEP][PASSED] - click(productLink): Object: '' is clicked on
+
+14-01-2025T15:15:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+14-01-2025T15:15:04 - [TEST_STEP][PASSED] - randomNumber = 2 + Math.random() * 10 - 2 + 1: null
+
+14-01-2025T15:15:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_addtocart_" + id + ".EnteredQuantity"), randomNumber.toString()): Text '2' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:15:05 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_addtocart_36.EnteredQuantity'
+
+14-01-2025T15:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. " + product + "/input_Qty_add-to-cart-button-" + id)): Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:15:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36' is clicked on
+
+14-01-2025T15:15:05 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:05 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Order" time="5.541" classname="Test Cases/Order" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:15:05 - [TEST_CASE][PASSED] - Test Cases/Order: Test Cases/Order
+
+14-01-2025T15:15:05 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:05 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:05 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart' is clicked on
+
+14-01-2025T15:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0' is clicked on
+
+14-01-2025T15:15:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout")): Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout' is clicked on
+
+14-01-2025T15:15:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c' is clicked on
+
+14-01-2025T15:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:15:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore' is clicked on
+
+14-01-2025T15:15:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button' is clicked on
+
+14-01-2025T15:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button' is clicked on
+
+14-01-2025T15:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button' is clicked on
+
+14-01-2025T15:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button")): Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button' is clicked on
+
+14-01-2025T15:15:10 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:10 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="2.885" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[14-01-2025T15:15:10 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+14-01-2025T15:15:10 - [TEST_STEP][PASSED] - Start listener action : enableSauceLabs: [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:10 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:10 - [MESSAGE][INFO] - [SAUCELABS] Saucelabs Plugin will not attempt to auto update job status and information !
+
+14-01-2025T15:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Log out")): Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Log out' is clicked on
+
+14-01-2025T15:15:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+14-01-2025T15:15:13 - [MESSAGE][PASSED] - Browser is closed
+
+14-01-2025T15:15:13 - [TEST_STEP][PASSED] - Start listener action : autoUpdateJobStatus: [SAUCELABS] Current run configuration: Edge Chromium
+
+14-01-2025T15:15:13 - [MESSAGE][INFO] - [SAUCELABS] Current run configuration: Edge Chromium]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T15:14:52 - [TEST_SUITE][PASSED] - WebShopSuite: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

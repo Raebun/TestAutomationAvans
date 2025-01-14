@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WebShopSuite,Chrome 131.0.0.0,,,14-01-2025 14:57:40,14-01-2025 14:57:49,"9,703s",FAILED
+,,,,,,,
+Test Cases/Login,Chrome 131.0.0.0,,,14-01-2025 14:57:46,14-01-2025 14:57:47,"1,291s",FAILED
+Start listener action : enableSauceLabs,Chrome 131.0.0.0,,,14-01-2025 14:57:46,14-01-2025 14:57:46,"0,001s",PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,14-01-2025 14:57:46,14-01-2025 14:57:47,"0,704s",PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 131.0.0.0,,,14-01-2025 14:57:47,14-01-2025 14:57:47,"0,476s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Log in""))",Chrome 131.0.0.0,,,14-01-2025 14:57:47,14-01-2025 14:57:47,"0,104s",FAILED
+Start listener action : autoUpdateJobStatus,Chrome 131.0.0.0,,,14-01-2025 14:57:47,14-01-2025 14:57:47,"0,000s",PASSED
+,,,,,,,
+Test Cases/AddItems,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,112s",FAILED
+Start listener action : enableSauceLabs,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_q""), product)",Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,102s",FAILED
+Start listener action : autoUpdateJobStatus,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,001s",PASSED
+,,,,,,,
+Test Cases/AddItems,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,095s",FAILED
+Start listener action : enableSauceLabs,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_q""), product)",Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,088s",FAILED
+Start listener action : autoUpdateJobStatus,Chrome 131.0.0.0,,,14-01-2025 14:57:48,14-01-2025 14:57:48,"0,001s",PASSED
+,,,,,,,
+Test Cases/Order,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,093s",FAILED
+Start listener action : enableSauceLabs,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,002s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Blue Jeans/span_Shopping cart""))",Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,086s",FAILED
+Start listener action : autoUpdateJobStatus,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,001s",PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,086s",FAILED
+Start listener action : enableSauceLabs,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,000s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Log out""))",Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,083s",FAILED
+Start listener action : autoUpdateJobStatus,Chrome 131.0.0.0,,,14-01-2025 14:57:49,14-01-2025 14:57:49,"0,000s",PASSED

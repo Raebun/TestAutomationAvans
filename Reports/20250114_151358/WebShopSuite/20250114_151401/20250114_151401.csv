@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WebShopSuite,Firefox 134.0,,,14-01-2025 15:14:29,14-01-2025 15:14:49,"20,706s",PASSED
+,,,,,,,
+Test Cases/Login,Firefox 134.0,,,14-01-2025 15:14:29,14-01-2025 15:14:34,"5,499s",PASSED
+Start listener action : enableSauceLabs,Firefox 134.0,,,14-01-2025 15:14:29,14-01-2025 15:14:29,"0,013s",PASSED
+"openBrowser("""")",Firefox 134.0,,,14-01-2025 15:14:29,14-01-2025 15:14:31,"2,303s",PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Firefox 134.0,,,14-01-2025 15:14:31,14-01-2025 15:14:32,"0,585s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Log in""))",Firefox 134.0,,,14-01-2025 15:14:32,14-01-2025 15:14:33,"0,725s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. Login/input_Email_Email""), ""r.sarikaya@student.avans.nl"")",Firefox 134.0,,,14-01-2025 15:14:33,14-01-2025 15:14:33,"0,699s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Demo Web Shop. Login/input_Password_Password""), ""rdcf2pvC1eAK0Pf1WCwicA=="")",Firefox 134.0,,,14-01-2025 15:14:33,14-01-2025 15:14:34,"0,257s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Login/input_Forgot password_button-1 login-button""))",Firefox 134.0,,,14-01-2025 15:14:34,14-01-2025 15:14:34,"0,779s",PASSED
+Start listener action : autoUpdateJobStatus,Firefox 134.0,,,14-01-2025 15:14:34,14-01-2025 15:14:34,"0,001s",PASSED
+,,,,,,,
+Test Cases/AddItems,Firefox 134.0,,,14-01-2025 15:14:34,14-01-2025 15:14:38,"3,826s",PASSED
+Start listener action : enableSauceLabs,Firefox 134.0,,,14-01-2025 15:14:34,14-01-2025 15:14:34,"0,001s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_q""), product)",Firefox 134.0,,,14-01-2025 15:14:34,14-01-2025 15:14:35,"0,590s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button""))",Firefox 134.0,,,14-01-2025 15:14:35,14-01-2025 15:14:36,"0,713s",PASSED
+"xpath = ""//div[@class='product-item' and @data-productid='"" + id + ""']//a""",Firefox 134.0,,,14-01-2025 15:14:36,14-01-2025 15:14:36,"0,003s",PASSED
+"productLink = TestObject().addProperty(""xpath"", EQUALS, xpath)",Firefox 134.0,,,14-01-2025 15:14:36,14-01-2025 15:14:36,"0,007s",PASSED
+click(productLink),Firefox 134.0,,,14-01-2025 15:14:36,14-01-2025 15:14:37,"1,233s",PASSED
+randomNumber = 2 + Math.random() * 10 - 2 + 1,Firefox 134.0,,,14-01-2025 15:14:37,14-01-2025 15:14:37,"0,022s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. "" + product + ""/input_Qty_addtocart_"" + id + "".EnteredQuantity""), randomNumber.toString())",Firefox 134.0,,,14-01-2025 15:14:37,14-01-2025 15:14:38,"0,710s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. "" + product + ""/input_Qty_add-to-cart-button-"" + id))",Firefox 134.0,,,14-01-2025 15:14:38,14-01-2025 15:14:38,"0,450s",PASSED
+Start listener action : autoUpdateJobStatus,Firefox 134.0,,,14-01-2025 15:14:38,14-01-2025 15:14:38,"0,000s",PASSED
+,,,,,,,
+Test Cases/AddItems,Firefox 134.0,,,14-01-2025 15:14:38,14-01-2025 15:14:42,"3,737s",PASSED
+Start listener action : enableSauceLabs,Firefox 134.0,,,14-01-2025 15:14:38,14-01-2025 15:14:38,"0,002s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_q""), product)",Firefox 134.0,,,14-01-2025 15:14:38,14-01-2025 15:14:39,"0,573s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/input_Sub-Total_button-1 search-box-button""))",Firefox 134.0,,,14-01-2025 15:14:39,14-01-2025 15:14:40,"0,709s",PASSED
+"xpath = ""//div[@class='product-item' and @data-productid='"" + id + ""']//a""",Firefox 134.0,,,14-01-2025 15:14:40,14-01-2025 15:14:40,"0,000s",PASSED
+"productLink = TestObject().addProperty(""xpath"", EQUALS, xpath)",Firefox 134.0,,,14-01-2025 15:14:40,14-01-2025 15:14:40,"0,000s",PASSED
+click(productLink),Firefox 134.0,,,14-01-2025 15:14:40,14-01-2025 15:14:41,"1,274s",PASSED
+randomNumber = 2 + Math.random() * 10 - 2 + 1,Firefox 134.0,,,14-01-2025 15:14:41,14-01-2025 15:14:41,"0,000s",PASSED
+"setText(findTestObject(""Object Repository/Page_Demo Web Shop. "" + product + ""/input_Qty_addtocart_"" + id + "".EnteredQuantity""), randomNumber.toString())",Firefox 134.0,,,14-01-2025 15:14:41,14-01-2025 15:14:42,"0,709s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. "" + product + ""/input_Qty_add-to-cart-button-"" + id))",Firefox 134.0,,,14-01-2025 15:14:42,14-01-2025 15:14:42,"0,459s",PASSED
+Start listener action : autoUpdateJobStatus,Firefox 134.0,,,14-01-2025 15:14:42,14-01-2025 15:14:42,"0,001s",PASSED
+,,,,,,,
+Test Cases/Order,Firefox 134.0,,,14-01-2025 15:14:42,14-01-2025 15:14:48,"5,546s",PASSED
+Start listener action : enableSauceLabs,Firefox 134.0,,,14-01-2025 15:14:42,14-01-2025 15:14:42,"0,001s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Shopping Cart/span_Shopping cart""))",Firefox 134.0,,,14-01-2025 15:14:42,14-01-2025 15:14:43,"0,682s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Shopping Cart/input_I agree with the terms of service and_f529a0""))",Firefox 134.0,,,14-01-2025 15:14:43,14-01-2025 15:14:43,"0,657s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Shopping Cart/button_Checkout""))",Firefox 134.0,,,14-01-2025 15:14:43,14-01-2025 15:14:44,"0,717s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_button-1 new-address-next-_2f210c""))",Firefox 134.0,,,14-01-2025 15:14:44,14-01-2025 15:14:45,"0,681s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input_Fax number_PickUpInStore""))",Firefox 134.0,,,14-01-2025 15:14:45,14-01-2025 15:14:45,"0,695s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 new-address-next-step-button""))",Firefox 134.0,,,14-01-2025 15:14:45,14-01-2025 15:14:46,"0,439s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-method-next-step-button""))",Firefox 134.0,,,14-01-2025 15:14:46,14-01-2025 15:14:46,"0,560s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 payment-info-next-step-button""))",Firefox 134.0,,,14-01-2025 15:14:46,14-01-2025 15:14:47,"0,542s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/input__button-1 confirm-order-next-step-button""))",Firefox 134.0,,,14-01-2025 15:14:47,14-01-2025 15:14:48,"0,537s",PASSED
+Start listener action : autoUpdateJobStatus,Firefox 134.0,,,14-01-2025 15:14:48,14-01-2025 15:14:48,"0,000s",PASSED
+,,,,,,,
+Test Cases/Logout,Firefox 134.0,,,14-01-2025 15:14:48,14-01-2025 15:14:49,"1,858s",PASSED
+Start listener action : enableSauceLabs,Firefox 134.0,,,14-01-2025 15:14:48,14-01-2025 15:14:48,"0,001s",PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Log out""))",Firefox 134.0,,,14-01-2025 15:14:48,14-01-2025 15:14:49,"1,400s",PASSED
+closeBrowser(),Firefox 134.0,,,14-01-2025 15:14:49,14-01-2025 15:14:49,"0,422s",PASSED
+Start listener action : autoUpdateJobStatus,Firefox 134.0,,,14-01-2025 15:14:49,14-01-2025 15:14:49,"0,000s",PASSED

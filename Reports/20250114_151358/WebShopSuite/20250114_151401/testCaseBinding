@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/AddItems","testCaseId":"Test Cases/AddItems","iterationVariableName":"","bindedValues":{"product":"\u0027SmartPhone\u0027","id":"\u002743\u0027"}}
+{"testCaseName":"Test Cases/AddItems","testCaseId":"Test Cases/AddItems","iterationVariableName":"","bindedValues":{"product":"\u0027Blue Jeans\u0027","id":"\u002736\u0027"}}
+{"testCaseName":"Test Cases/Order","testCaseId":"Test Cases/Order","iterationVariableName":""}
+{"testCaseName":"Test Cases/Logout","testCaseId":"Test Cases/Logout","iterationVariableName":""}
