@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTests", "ApiTests\ApiTests.csproj", "{E4DFA69E-AC99-4F6A-AAC6-5F01E2BF8130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTests", "ApiTests\ApiTests.csproj", "{E4DFA69E-AC99-4F6A-AAC6-5F01E2BF8130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiTests", "GuiTests\GuiTests.csproj", "{4A859B75-A699-4F4F-BD65-209F7D60697D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuiTests", "GuiTests\GuiTests.csproj", "{4A859B75-A699-4F4F-BD65-209F7D60697D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{67C8E264-5B63-4F89-A9B4-1891D5553F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Tests", "MyApp.Tests\MyApp.Tests.csproj", "{13AE7498-4AE1-4309-8E58-3C95260DF29A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67C8E264-5B63-4F89-A9B4-1891D5553F2D} = {67C8E264-5B63-4F89-A9B4-1891D5553F2D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +28,19 @@ Global
 		{4A859B75-A699-4F4F-BD65-209F7D60697D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A859B75-A699-4F4F-BD65-209F7D60697D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A859B75-A699-4F4F-BD65-209F7D60697D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C8E264-5B63-4F89-A9B4-1891D5553F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C8E264-5B63-4F89-A9B4-1891D5553F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C8E264-5B63-4F89-A9B4-1891D5553F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C8E264-5B63-4F89-A9B4-1891D5553F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE7498-4AE1-4309-8E58-3C95260DF29A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE7498-4AE1-4309-8E58-3C95260DF29A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE7498-4AE1-4309-8E58-3C95260DF29A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE7498-4AE1-4309-8E58-3C95260DF29A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29B4040A-F870-4B0D-B758-B23AA2102BB3}
 	EndGlobalSection
 EndGlobal
