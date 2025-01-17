@@ -1,0 +1,2 @@
+OpenCover.Console.exe -target:"C:\Program Files\dotnet\dotnet.exe" -targetargs:"test C:\Users\jorik\Source\Repos\Raebun\TestAutomationAvans\TestAutomation\MyApp.Tests\MyApp.Tests.csproj --no-build" -output:"TestCoverage\coverage.xml" -filter:"+[MyApp*]* -[*Tests]*"
+reportgenerator -reports:C:\Users\jorik\Source\Repos\Raebun\TestAutomationAvans\TestAutomation\TestCoverage\coverage.xml -targetdir:C:\Users\jorik\Source\Repos\Raebun\TestAutomationAvans\TestAutomation\TestCoverage\
